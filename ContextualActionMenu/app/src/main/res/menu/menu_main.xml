@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:context="com.smoothbalance.contextualactionmenu.MainActivity">
+
+    <item
+        android:id="@+id/action2"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:showAsAction="ifRoom|withText"
+        android:title="Delete"
+        android:titleCondensed="Delete"
+        />
+
+
+    <item
+        android:id="@+id/action1"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:showAsAction="ifRoom|withText"
+        android:title="Delete"
+        android:titleCondensed="Delete">
+    </item>
+</menu>
